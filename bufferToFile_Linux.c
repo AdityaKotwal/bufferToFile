@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#define DST "/Users/akotwal/Internship/Intern-dump/dump2"
+#define DST "/mts/home1/akotwal/bufToFile/dump4"
 #define MAX_BLKS 1024
 #define SIZE_BLK 4096 // Each block is 4K
 

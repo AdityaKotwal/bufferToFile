@@ -74,7 +74,7 @@ void testCase(){
    char uid[100];
    Str_Strcpy(buf,"1234567891123456123456789012345621345678911234561234567890123456",64);
    Str_Strcpy(uid,"abc",3);
-   bufferToFile(buf,strlen(buf),uid,1);
+   bufferToFile(buf,64,uid,1);
 }
 
 int main(){

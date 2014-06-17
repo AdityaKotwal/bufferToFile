@@ -47,7 +47,7 @@ unsigned long
    op = fopen(DST,"ab");
    buf_pos = 0;
    while(buf_pos < len){
-      strncpy(hash, buf + buf_pos, 32);
+      memcpy(hash, buf + buf_pos, 32);
       hash[16 * 2] = '\0';
       fprintf(op, "%s,%s,%lu\n", UID, hash, offset);
       offset += SIZE_BLK;
